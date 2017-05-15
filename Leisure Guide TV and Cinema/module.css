@@ -1,0 +1,242 @@
+
+.Chairman-Box {
+}
+.Chairman-Box tr td {
+    padding: 5px;
+    vertical-align: top;
+}
+.Chairman-Box tr:nth-child(2n+1) td {
+    background: none repeat scroll 0 0 #EAF1DD;
+    font-size: 18px;
+    text-align: center;
+}
+.Chairman-Box tr:nth-child(2n) td {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.v-aline-top tr td {
+    padding: 5px;
+    vertical-align: top;
+}
+.v-aline-top img {
+    height: 90px;
+    width: 95px;
+}
+.TD-DEA td {
+    background: none repeat scroll 0 0 #EAF1DD;
+}
+.TD-HEAD {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.module-Box tr td {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+.module-Box tr:first-child td {
+    border-top: 1px solid #000000;
+}
+.module-Box tr td:last-child {
+    border-right: 1px solid #000000;
+}
+.module-Box tr td:first-child {
+    text-align: center;
+}
+.faculty-content {
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+.cell05 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.faculty {
+    border: 0 solid;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 8px 0;
+    width: 982px;
+}
+.left-faculty {
+    border: 0 solid #000000;
+    float: left;
+    overflow: hidden;
+    width: 715px;
+}
+.right-faculty {
+    border: 0 solid #000000;
+    float: right;
+    overflow: hidden;
+    width: 260px;
+}
+.common-course {
+    border: 1px solid #CACACA;
+    box-shadow: 0 7px 7px 0 #E6E8E0;
+    float: left;
+    margin: 0 10px 25px 0;
+    min-height: 215px;
+    padding: 5px;
+    width: 210px;
+}
+.course-det {
+    border: 1px solid #CACACA;
+    float: left;
+    padding: 5px;
+    width: 460px;
+}
+.course-det p {
+    line-height: 24px;
+    text-align: justify;
+}
+.course-type {
+}
+.course-type ul {
+    font-size: 12px;
+    line-height: 27px;
+    list-style-type: none;
+}
+.course-type ul li {
+}
+.course-type ul li:hover {
+    color: #A0BF1A;
+    cursor: pointer;
+}
+.course-type a {
+    background: none repeat scroll 0 0 #B7CEC9;
+    border-bottom: 0 dotted #999999;
+    color: #000000;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+.course-type a:hover {
+    background: none repeat scroll 0 0 #EAF1DD;
+    color: #000000;
+}
+.faculty-img {
+    height: auto;
+    width: 460px;
+}
+.faculty-img img {
+    height: 180px;
+    margin-bottom: 5px;
+}
+.cell-img {
+    border: 1px solid #999999;
+    height: 140px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 2px;
+    width: 150px;
+}
+.faculty-footer {
+    background: none repeat scroll 0 0 #6B9A79;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 8px 0;
+    width: 982px;
+}
+.faculty-footer ul {
+    list-style-type: none;
+}
+.faculty-footer ul li {
+    display: inline;
+    margin: 0 90px;
+}
+.faculty-footer a {
+    color: #FFFFFF;
+}
+.faculty-footer a:hover {
+    color: #FF6432;
+}
+.cell80 {
+    background: none repeat scroll 0 0 #96C8FF;
+    font-size: 15px;
+    height: 25px;
+}
+.all-content {
+    width: 738px;
+}
+.module-button {
+    background: none repeat scroll 0 0 #215868;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 7px 10px;
+    text-align: center;
+}
+.tablestrip tr td {
+    color: #000000;
+    font-size: 14px;
+    height: 28px;
+    padding: 0 5px;
+}
+.tablestrip tr td a {
+    background: none repeat scroll 0 0 #6B9A79;
+    color: #FFFFFF;
+    padding: 4px 5px;
+}
+.tablestrip tr td a:hover {
+    background: none repeat scroll 0 0 #485F5A;
+    color: #FFFFFF;
+    padding: 4px 5px;
+}
+.tablestrip tr:nth-child(2n+1) td {
+}
+.tablestrip tr:nth-child(2n) td {
+}
+.agenda tr td {
+    color: #000000;
+    font-size: 14px;
+    height: 28px;
+    padding: 0 5px;
+}
+.agenda tr td a {
+    background: none repeat scroll 0 0 #6B9A79;
+    color: #FFFFFF;
+    padding: 4px 5px;
+}
+.agenda tr td a:hover {
+    background: none repeat scroll 0 0 #485F5A;
+    color: #FFFFFF;
+    padding: 4px 5px;
+}
+.agenda tr:nth-child(2n+1) td {
+    background: none repeat scroll 0 0 #E4E4E4;
+    box-shadow: 0 1px 5px #999999;
+    padding: 0 10px;
+}
+.agenda tr:nth-child(2n) td {
+    padding: 10px;
+}
+.agendaBox {
+    line-height: 40px;
+    margin-top: 15px;
+}
+.agenda p {
+    padding: 5px 0;
+}
+.decision_show {
+}
+.decision_show tr td {
+    vertical-align: top;
+}
+.decision_show tr td a {
+    background: none repeat scroll 0 0 #6B9A79;
+    color: #FFFFFF;
+    padding: 4px 5px;
+}
+.decision_show tr td a:hover {
+    background: none repeat scroll 0 0 #485F5A;
+    color: #FFFFFF;
+    padding: 4px 5px;
+}
+.decision_show tr:nth-child(2n+1) td {
+}
+.decision_show tr:nth-child(2n) td {
+}
+.decision_show tr td:first-child {
+    font-weight: bold;
+}

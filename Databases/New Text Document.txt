@@ -1,0 +1,3 @@
+SELECT *
+FROM tv_program
+WHERE time BETWEEN '07:00:00' and '11:00:00' and channel_name_id=1 order by time

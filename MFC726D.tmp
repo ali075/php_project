@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://www.bsmmu.edu.bd/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link href="./BSMMU- Home_files/style.css" rel="stylesheet" type="text/css">
+	<title>Leisure Guide TV & Cinema- Home</title>
+	<script async="" src="./BSMMU- Home_files/analytics.js"></script><script type="text/javascript" src="./BSMMU- Home_files/jquery.min.js"></script>
+	<script type="text/javascript" src="./BSMMU- Home_files/jquery-1.2.6.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./BSMMU- Home_files/main_dropdown.css">
+	<link rel="stylesheet" type="text/css" href="./BSMMU- Home_files/notification.css">
+	<link rel="stylesheet" type="text/css" href="./BSMMU- Home_files/module.css">
+	<script type="text/javascript">$(document).ready(function(){$(".hideit").click(function(){$(this).hide(700);});});</script>
+	<link type="text/css" rel="stylesheet" href="./BSMMU- Home_files/main.css">
+	<link type="text/css" rel="stylesheet" href="./BSMMU- Home_files/side_nav.css">
+
+
+	<!--Slide scroller-->
+	<link href="./BSMMU- Home_files/amazon_scroller.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="./BSMMU- Home_files/amazon_scroller.js"></script>  
+	<!--Slide scroller-->
+
+
+
+	<link rel="shortcut icon" href="http://www.bsmmu.edu.bd/images/favicon.ico" type="image/x-icon">
+
+	<!--Font Link-->
+	<link href="./BSMMU- Home_files/css" rel="stylesheet" type="text/css">
+	<!--Font Link-->
+
+	<script type="text/javascript" src="./BSMMU- Home_files/fluidtextresizer.js">
+
+		/***********************************************
+		* Fluid Text Resizer- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+		* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+		* This notice must stay intact for legal use
+		***********************************************/
+
+	</script>
+
+	<script type="text/javascript">
+
+		var mytextsizer=new fluidtextresizer({
+			controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+			targets: ["body"], //target elements to resize text within: ["selector1", "selector2", etc]
+			levels: 3, //number of levels users can magnify (or shrink) text
+			persist: "session", //enter "session" or "none"
+			animate: 200 //animation duration of text resize. Enter 0 to disable
+		})
+
+	</script>
+
+	<script type="text/javascript">
+
+		/*** 
+		Simple jQuery Slideshow Script
+		Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+		***/
+
+		function slideSwitch() {
+			var $active = $('#slideshow DIV.active');
+
+			if ( $active.length == 0 ) $active = $('#slideshow DIV:last');
+
+			// use this to pull the divs in the order they appear in the markup
+			var $next =  $active.next().length ? $active.next(): $('#slideshow DIV:first');
+
+			// uncomment below to pull the divs randomly
+			// var $sibs  = $active.siblings();
+			// var rndNum = Math.floor(Math.random() * $sibs.length );
+			// var $next  = $( $sibs[ rndNum ] );
+
+
+			$active.addClass('last-active');
+
+			$next.css({opacity: 0.0})
+			.addClass('active')
+			.animate({opacity: 1.0}, 1000, function() {
+				$active.removeClass('active last-active');
+			});
+		}
+
+		$(function() {
+			setInterval( "slideSwitch()", 3000 );
+		});
+
+	</script>
+
+	<!--Marque-->
+	<!--<script src="prefixfree.js" type="text/javascript">
+	//css get style.css page 
+	</script>-->
+	<!--Marque-->
+</head>
+
+<body style="background-color: #F5F5F5;">
+<!--<font face="SolaimanLipi" color="#000" size="3">-->
+<div id="header-box"><!-- Header Box -->
+<div class="Top-Header">
+	
+	<div class="login-box">
+		
+		<div style="float: left; margin: 0px 0px 0px 850px; line-height: 25px;">
+		<a href="Login.html" style="color: rgb(255, 255, 255); font-size: 14px ! important;">Login</a>
+		</div>
+		<div style="float:right;">
+		<div style="float: left; margin: 2px 0px 0px 0px; line-height: 25px;"><img src="BSMMU- Home_files/watchlist.png" height="12" width="12">&nbsp;<a style="color: rgb(255, 255, 255); font-size: 14px ! important;">My Wathclist</a></div>	
+		</div>
+	</div>
+</div>
+<div class="header">
+	<div class="header-top">
+		<div class="logo">
+			<a href="./BSMMU- Home_files/BSMMU- Home.html"><img src="./BSMMU- Home_files/logo.png" width="282" height="57"></a>
+		</div>
+		<div class="top-right"> 
+			<!--<div id="sizecontroldiv" class="controlstyle">
+			<a href="#smaller"><img src="images/fontminus.png" width="27" /></a>
+			<a href="#bigger"><img src="images/fontplus.png" width="27" /></a>
+			</div>-->
+
+		</div>
+
+		<div class="bottom-top">
+
+			<div class="search-box">
+				<form method="get" action="./BSMMU- Home_files/BSMMU- Home.html">
+					<input type="hidden" name="page" value="csearch">
+					<input type="hidden" name="cx" value="012420767386389925125:39rv31uvjmk">
+					<input type="hidden" name="cof" value="FORID:10">
+					<input type="hidden" name="ie" value="ISO-8859-1">
+					<input type="text" name="q" class="search" maxlength="30" id="searchfield" title="searchfield" value="" placeholder="Search">
+
+					<!--<input type="submit" name="Search" value="Search" alt="Search" class="sear-submit" title="Search" />-->
+				<!--</form>
+				<form action="" method="">
+					<input class="search" type="text" name="search" placeholder="Search"  />-->
+					<input class="btn" type="submit" value="" name="Search">
+				</form>
+			</div>
+			<a href="">Advance Search</a>
+		</div>
+	</div>
+	<div class="header-bottom">
+	<div class="bottom-menu">
+		<ul id="csdrp">
+			<li><a class="active" href="./BSMMU- Home_files/BSMMU- Home.html"><img src="./BSMMU- Home_files/home.png" width="25"></a></li>                <li><a href="javascript:void();">All TV Program</a>
+
+
+                    <ul>
+            <li><a href="http://www.bsmmu.edu.bd/?page=menu&content=13892635687">Drama</a></li>
+                        <li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Music Show</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Talk Show</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Reality Show</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Helth and Lifestyle</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Comedy</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Sports</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Travel</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Game Show</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Food and Cooking</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Educational</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Business</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Kids</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Religious</a></li>
+						<li><a href="http://www.bsmmu.edu.bd/?page=menu&content=138926666081">Agricultural Event</a></li>
+						
+                        </ul>
+            
+
+
+                </li>
+                                <li><a href="javascript:void();">Popular Program</a>
+
+
+                </li>
+                                <li><a href="javascript:void();">Cinema</a>
+
+
+                    <ul>
+            
+                            <li>
+                            <a href="javascript:void">
+                            <span>Running Movie
+                            </span>
+                            <span class="icon">&nbsp;</span>
+                            </a>
+                            <ul>
+            
+                        <li>
+                        <a href="http://www.bsmmu.edu.bd/?module=synd_members&trg=139020198279">
+                        <span>
+                        Star Cineplex
+                        </span>
+
+                        </a>
+                        
+                        </li><li>
+                        <a href="http://www.bsmmu.edu.bd/?module=academic_members&trg=139020204641">
+                        <span>
+                        Bolckbuster
+                        </span>
+						
+						</li><li>
+                        <a href="http://www.bsmmu.edu.bd/?module=academic_members&trg=139020204641">
+                        <span>
+                        Bolaka
+                        </span>
+
+                        
+                        </ul>
+            </li>
+                    
+                            <li>
+                            <a href="javascript:void">
+                            <span>Upcomming Movie
+                            </span>
+                            <span class="icon">&nbsp;</span>
+                            </a>
+                            <ul>
+            
+                            <li>
+                            <a href="javascript:void">
+                            <span>Star Cineplex
+                            </span>
+                            <span class="icon">&nbsp;</span>
+                            </a>
+                            <ul>
+							
+							
+   
+                        
+                        </ul>
+            </li>
+                    <li><a href="http://www.bsmmu.edu.bd/?page=menu&content=139020230214">Blockbuster</a></li>
+                        <li><a href="http://www.bsmmu.edu.bd/?page=menu&content=139020235027">Bolaka</a></li>
+                        
+                        </ul>
+            </li>
+                    </ul>
+            
+
+
+                </li>
+                                <li><a href="javascript:void();">News And Features</a>
+
+
+                    <ul>
+            
+                            <li>
+                            <a href="javascript:void">
+                            <span>News
+                            </span>
+                            <span class="icon">&nbsp;</span>
+                            </a>
+     
+            </li>
+                    
+                    
+                            <li>
+                            <a href="javascript:void">
+                            <span>Academic Awards
+                            </span>
+                            <span class="icon">&nbsp;</span>
+                            </a>
+                            <ul>
+           
+                        </ul>
+            </li>
+                    <li><a href="http://www.bsmmu.edu.bd/?page=menu&content=141586375834">National Awards</a></li>
+                        <li><a href="http://www.bsmmu.edu.bd/?page=menu&content=139020378143">Meril Prothom Alo Awards</a></li>
+                        
+                     
+            
+                    </ul>
+            
+
+
+                </li>
+                                <li><a href="javascript:void();">Gallery</a>
+
+
+                   <ul>
+            
+                            <li>
+                            <a href="Photo Gallery.html">
+                            <span>Photo Gallery
+                            </span>
+                            <span class="icon">&nbsp;</span>
+                            </a>
+                            
+            </li>
+                    
+                            <li>
+                            <a href="http://www.bsmmu.edu.bd/?page=menu&content=13894308563">
+                            <span>Video Gallery
+                            </span>
+                            <span class="icon">&nbsp;</span>
+                            </a>
+                            
+            </li>
+                    </ul>
+            
+
+
+                </li>
+                                <li><a href="Sign Up.htm">Sign Up </a>
+
+
+                    
+           
+                                <li><a href="javascript:void();">About Us </a>
+
+
+                    
+
+
+                </li>
+                                <li><a href="Contact Us.html">Contact Us</a>
+
+                   
+            
+
+
+                </li>
+                               
+
+                
+		</ul>
+	</div>
+	</div></div><!-- End Header Box -->
+
+
+
+
+
+
+
+<div id="main-content"><!-- Main Content -->
+<div class="banner-box">
+	<div class="banner-left">
+    <div id="side_nav" class="side_nav grid_3">
+                
+        <ul>
+                    </ul>
+    </div>
+
+    <div class="welcome-box1 Wel-Log">
+        <img src="BSMMU- Home_files/login-button.png" width="212" height="50">
+    </div>
+    <div class="welcome-box1 Wel-Log" style="background-color:#CACAFF">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a><img src="BSMMU- Home_files/twitter button.png" width="45" height="45"></a>
+		<a><img src="BSMMU- Home_files/youtube button.png" width="45" height="45"></a>
+		<a><img src="BSMMU- Home_files/facebook button.png" width="45" height="40"></a>
+    </div>
+  
+        <div class="bannre-tab" style="margin: 0px 0px 0px 3px;  padding:6px 0 0;">
+    <h2 style="width: 100%"><span><a href="http://www.bsmmu.edu.bd/?page=notice" style="color:#FFF;">Notice</a></span></h2>
+    <ul id="tabs">
+      <li id="current"><a href="http://www.bsmmu.edu.bd/#" title="tab4">Academic</a></li>
+      <li><a href="http://www.bsmmu.edu.bd/#" title="tab2">Administrative</a></li>
+      <li><a href="http://www.bsmmu.edu.bd/#" title="tab3">Common</a></li>   
+    </ul>
+    <div id="content" style="background:#daeef3; min-height:175px; width: 215px; margin: 0;"> 
+      <div id="tab4" class="marquee" style="display: block;">
+                          <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144684252436">Result of Residency Program Phase-A admission test March-2016.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144660449930">Seat Plan for MD/MS Residency Program, March 2016.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144600074018">B.Sc Nursing Admission Test Circular &amp; Admission form 2015-16</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144532886643">Notice for availing facilities of help desk for admission test, March 2016.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144532867823">Course Exam. Notice, January-2016</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144420702848">Corrigendum notice for Residency Program, March-2016.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144289380575">Admission information for MD/MS, Phase-A, Residency Program March-2016.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144109608981">Notice for Research proposal. </a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144031238383">Result of MD/MS Residency Program July 2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144023142096">Residency Program Thesis Notice January-2016</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143970865854">Result of Non-Residency Course Examinations: July 2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143675958570">Sehedule of Written Examinations for Residency Program, July-2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143675828842">Diploma New Curriculum Oral &amp; Clinical Exam. Schedule &amp; New regulation, July-2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143675822964">Schedule of Residency Phase – A &amp; B, SCA Schedule &amp; Clinical Examinations in July – 2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143675813516">SCHEDULE FOR ORAL, PRACTICAL &amp; CLINICAL EXAMINATIONS TO BE HELD IN JULY.-2015</a></h3>
+            <br>
+                  </div>
+      <div id="tab2" class="marquee" style="display: none;">
+                          <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144748198989">Notice for Advertisement and Application Form</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144600005981">B.Sc Nursing Admission Test Circular &amp; Admission form 2015-16</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144531610484">Notice for Durga Puja Reunion 2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144506737420">Notice for Advertisement Senior Staff Nurse and application form.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144360251995">Office Order for Freedom Fighter Cell</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144290802369">Notice for Outdoor Open</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144289396677">Notice for Eid Reunion 2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144273702127">Academic Council Notice</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144237200951">Leave Notice for Eid-ul-Adha 2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144221097676">Notice for Residency Program Management</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144212252722">Office Notice</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144151649096">Teacher Recruitment Notice and Application form</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144022060944">Office Order for Thesis Nominated Phase-B Residency Program</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143969390991">Notice for National mourning day 2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143668712841">Notice for Eid Reunion 2015</a></h3>
+            <br>
+                  </div>
+      <div id="tab3" class="marquee" style="display: none;">
+                          <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144766009121">Invitation for Procurement of Medical Equipment</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144635661242">Invitation for Establishment of a Center for Advanced Biomedical Research (RFQ) </a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144627993296">Request for Quotation (IQAC)</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144410374233">Invitation for Procurement of Motor Vehicle sedan car.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=14435919621">Invitation for Procurement of Medical Equipment</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=14424673883">Procurement of Medical Equipment </a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144151763816">Procurement for CR, OPG, Mammogram, CT Scan, MRI, X-ray Film &amp; Printing </a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144151762239">Laparoscopic Training for Young Surgeons and Post Graduate Students</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144109520291">Recruitment notice for IQAC, BSMMU.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=144100662861">Invitation for Procurement of Medical Equipment</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=14376425496">Recruitment Notice</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143677084777">Invitation for Procurement of Medical Equipment</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143659822293">Invitation for Procurement of Printing</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143573764366">Procurement of Goods</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color1"><a href="http://www.bsmmu.edu.bd/?page=notice&content=143304374878">Office closing Notice for Shab e-Barat</a></h3>
+            <br>
+                  </div>
+    </div>
+  </div>
+        
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>    -->
+
+    <script type="text/javascript">
+        $('#colour_switcher a').click(function(){
+            var colour = $(this).attr('id');
+            var cssUrl = ('theme_'+colour+'.css');
+
+            var link = $("<link>");
+            link.attr({
+                type: 'text/css',
+                rel: 'stylesheet',
+                href: 'styles/skins/'+cssUrl
+            });
+
+            $("head").append( link );
+
+            $("img").each(function(){
+                $(this).attr("src", $(this).attr("src").replace("grey", "white"));  
+            });
+        });
+
+        $('#bg_switcher a').click(function(){
+            var link = $(this).attr('href');
+            var cssLink = ('url('+link+')');
+            $('body').css('background',cssLink);
+            return false;
+        });
+    </script>
+    <!-- Need End -->
+    </div>			<div class="right-banner">
+				<div class="top-banner">
+    <div class="slide-box">
+        <div id="slideshow">
+                            <div class="">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1390113225.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div class="" style="opacity: 1;">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1390113237.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div class="" style="opacity: 1;">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1390113254.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div class="" style="opacity: 1;">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1390276136.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div class="" style="opacity: 1;">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1442375941.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div class="" style="opacity: 1;">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1442375950.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div class="active last-active" style="opacity: 1;">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1442375957.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div class="active" style="opacity: 0.171707;">
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1442375965.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div>
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1442375974.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div>
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1442375982.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div>
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1442375991.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div>
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1446691862.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div>
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1446691868.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                                <div>
+                    <a href="javascript:voit();"><img src="./BSMMU- Home_files/slide_1446691874.jpg" height="249" alt="Slideshow Image 1"></a>
+                </div>
+                        </div>
+    </div>
+            </div><div class="content-box">
+	<div class="left-content">
+		<div class="welcome-box" style="min-height: 50px;">
+					<h1>Welcome to BSMMU</h1>
+            <p>Bangabandhu Sheikh Mujib Medical University (BSMMU) is the premier Postgraduate Medical Institution of the country. It bears the heritage to Institute of Postgraduate Medical Research (IPGMR) which was established in December 1965. In the year 1998 the Government converted IPGMR into a Medical University for expanding the facilities for higher medical education and research in the country. It has an enviable reputation for providing high quality postgraduate education in different specialties. The university has strong link with other professional bodies at home and abroad. The university is expanding rapidly and at present, the university has many departments equipped with modern technology for service, teaching and research.&nbsp; Besides education, the university plays the vital role of promoting research activities in various discipline of medicine. Since its inception, the university has also been delivering general and specialized clinical service as a tertiary level healthcare center.</p>		</div>
+	</div>
+</div>			</div>
+			<div class="right-banner-box">
+	<div class="bannre-tab">
+		<h2><span><a href="http://www.bsmmu.edu.bd/?page=news" style="color:#FFF;">News</a></span></h2>
+		<div id="contener" style="background:#eaf1dd; min-height:202px; overflow: hidden;">
+				<div id="tab1" class="marquee">
+					            <h3 class="publication-show publication-color2"><a href="http://www.bsmmu.edu.bd/?page=news&content=143487089424">Monthly News Letter of BSMMU</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color2"><a href="http://www.bsmmu.edu.bd/?page=news&content=143053780836">Office Order For All Teachers, Doctors, Officers, Nurses &amp; Employers.</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color2"><a href="http://www.bsmmu.edu.bd/?page=news&content=14262552388">Result for Admission Test, July-2015</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color2"><a href="http://www.bsmmu.edu.bd/?page=news&content=141846254876">Result of Admission Test of "BSc Nursing" for the Session 2014 - 2015 under the Faculty of Nursing</a></h3>
+            <br>
+                        <h3 class="publication-show publication-color2"><a href="http://www.bsmmu.edu.bd/?page=news&content=141719468839">Admission test result for MD/MS courses in Residency Program, March-2015.</a></h3>
+            <br>
+            				</div>
+		</div>
+	</div>
+	<div class="bannre-tab" style="padding: 4px 0px 0px;">
+		<h2><span><a href="http://www.bsmmu.edu.bd/?page=events" style="color:#FFF;">Event</a></span></h2>
+		<div id="contener" style="background:#fde9d9; min-height:243px; overflow: hidden;">
+				<div id="tab1" class="marquee">
+					            <h3 class="publication-show publication-color3"><a href="http://www.bsmmu.edu.bd/?page=events&content=144524092479">Workshop on "Developing Structured Genetic Counseling Prevalent Genetic Diseases in Bangladesh"</a></h3>
+            <br>
+            				</div>
+		</div>
+	</div>
+	
+	
+
+</div>
+	</div>
+</div>
+<!-- End Main Content --><!-- Main footer -->
+<div id="mainfooter">
+	<div class="mainfooter-color">
+		<div class="footer-box">
+
+			<!-- End Footer To -->
+			<div class="footer-top">           
+				
+
+				<div class="footer-menu1">
+					<ul>
+													
+						|<li><a href="Contact Us.html">Contact</a></li>|
+					</ul>
+				</div>
+
+
+			</div>
+			<!-- End Footer footer -->
+
+		</div>
+	</div>
+	<!-- Footer Bottom -->
+	<div class="footer-bottom">
+		<div class="footer-bottom-center">
+			<p style="float: left; width: 730px;">Copyright © 2015, Leisure Guide TV & Cinema, All Rights Reserved.</p>
+			<!--<div class="footer-menu">
+				<ul>
+					<li>Powered by : <a href="http://optimalbd.com/" target="_blank">Optimal IT Ltd.</a></li>
+			</div>-->
+		</div>
+	</div> 
+	<!-- End Footer Bottom -->       
+		</div>
+		<!-- End Main footer -->
+		<!--<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>-->
+		<script>
+		$(document).ready(function() {
+			$("#content div").hide(); // Initially hide all content
+			$("#tabs li:first").attr("id","current"); // Activate first tab
+			$("#content div:first").fadeIn(); // Show first tab content
+			
+			$('#tabs a').click(function(e) {
+				e.preventDefault();        
+				$("#content div").hide(); //Hide all content
+				$("#tabs li").attr("id",""); //Reset id's
+				$(this).parent().attr("id","current"); // Activate this
+				$('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
+			});
+		})();
+		</script>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52048675-1', 'bsmmu.edu.bd');
+  ga('send', 'pageview');
+
+</script>
+	
+
+</div></body></html>

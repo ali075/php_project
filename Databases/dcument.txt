@@ -1,0 +1,13 @@
+We are trying to build up an website that is categorized in television and cinema. The interesting features are:
+1.Guideline: The visitors can see the starting of all programs of Bangladeshi tv channels within 30 days.
+2.Live TV: Visitors can enjoy live tv for all Bangladeshi channels.
+3.Categorized programs: Visitors can see the all kind of tv programs that are nicely categorized. for example, Drama, Talk Show, Comedy etc.
+4.My Watchlist: A visitor can add more than one programs within 30 days in their watchlist; and will get an alert message on his mobile before sometime of starting that program. He can set the time how long before the startup of that particular program he wants to get alert.
+Beneficiary: Mostly the vast number of students who stay outside of home, haven’t television but; use internet will be the actual beneficiary. In addition the busy people can set the alert for all programs and can be tensionless about the startup of programs and save their time.
+
+
+Main idea is to provide all Bangladeshi TV channels scheduling and to send program's starting alert to user’s phone, cineplex list for movie with ticket booking, user's event reminder system.
+
+
+
+It will take the visitor’s experience to a different level of enjoyment on TV and cineplex. It will help the user to remind his/her important events .

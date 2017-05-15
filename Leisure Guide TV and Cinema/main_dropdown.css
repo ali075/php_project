@@ -1,0 +1,117 @@
+#csdrp {
+	line-height: 100%;
+	margin: 0;
+	padding:0;
+	position: absolute;
+	z-index:999;
+	font-family: 'Marcellus', serif;
+}
+#csdrp li {
+	float: left;
+	list-style: none outside none;
+	margin: 0 0 0 1px;
+	padding: 0;
+	position: relative;
+}
+
+#csdrp a {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #FFFFFF #FFFFFF -moz-use-text-color;
+	border-image: none;
+	border-radius: 5px 5px 0 0;
+	border-style: solid solid none;
+	border-width: 1px 1px 0;
+	color: #000000;
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 10px;
+	text-decoration: none;
+	background:#b8cce4;
+}
+#csdrp a:hover {
+	background: none repeat scroll 0 0 #000000;
+	color: #FFFFFF !important;
+}
+#csdrp .current a, #csdrp li:hover > a {
+	/*background:#B7CEC9;
+	color: #444444;
+	text-shadow: 0 1px 0 #FFFFFF;*/
+	background: none repeat scroll 0 86px #485F5A;
+    color: #FFF !important;
+}
+#csdrp ul li:hover a, #csdrp li:hover li a {
+/*
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+*/
+	border: medium none;
+	color: #000;
+	line-height:25px !important;
+	font-weight:normal !important;
+
+}
+#csdrp ul a:hover {
+	color: #FFFFFF !important;
+	/*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background:#0078FF;*/
+	border-radius:0px;
+}
+#csdrp li:hover > ul {
+	display: block;
+	opacity:0.90;
+}
+#csdrp ul {
+	background: none repeat scroll 0 0 #B7CEC9;
+	border-radius: 0 0 8px 8px;
+	display: none;
+	left: 1px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 37px;
+	width: 225px;
+}
+#csdrp ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+#csdrp ul a {
+	font-weight: normal;
+	/*text-shadow: 0 1px 0 #FFFFFF;*/
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {  
+	#csdrp ul ul {
+	left: 225px;
+	top: -25px !important;
+	}
+
+}
+
+#csdrp ul ul {
+left: 225px;
+top: -13px;
+}
+#csdrp ul li:first-child > a {
+}
+#csdrp ul li:last-child > a {
+	border-radius: 0 0 8px 8px;
+}
+#csdrp:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+#csdrp {
+	display: inline-block;
+}
+html[xmlns] #csdrp {
+	display: block;
+}
